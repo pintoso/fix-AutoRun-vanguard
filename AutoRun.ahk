@@ -36,11 +36,9 @@ checkstart := ErrorLevel
 if (!checkstart) {
 	Menu, sub, ToggleEnable, ON
 	Menu, sub, Enable, OFF
-	msgbox, % checkstart
 }else {
 	Menu, sub, ToggleEnable, OFF
 	Menu, sub, Enable, ON
-	msgbox, % checkstart
 }
 
 ;---- check regedit

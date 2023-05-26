@@ -1,4 +1,5 @@
 # Fix AutoRun Vanguard
+![image](https://github.com/pintoso/fix-AutoRun-vanguard/assets/26844778/bf42b0ff-c81d-4bcb-a3e3-5c81b04abbb1)
 
 "fix" for Vanguard / Valorant start without conflict with pirated softwares.
 

@@ -7,7 +7,6 @@ DetectHiddenWindows, On
 SetWorkingDir, %A_ScriptDir%
 #Include %A_ScriptDir%\libs\Class_ImageButton.ahk
 #Include %A_ScriptDir%\libs\UseGDIP.ahk
-#Include %A_ScriptDir%\libs\Scheduler.ahk
 
 SetTimer, CheckValorant, 5000
 SetTimer, CheckVegas, 5000
@@ -30,12 +29,18 @@ Menu, Tray, Tip, AutoRun
 
 ;---- check startup
 ;
-if Scheduler_Exists("AutoRun") {
-	Menu, sub, ToggleEnable, OFF
-	Menu, sub, Enable, ON
-}else {
+
+Runwait,  "%A_WinDir%\System32\schtasks.exe" /change /tn AutoRun /ENABLE
+checkstart := ErrorLevel
+
+if (!checkstart) {
 	Menu, sub, ToggleEnable, ON
 	Menu, sub, Enable, OFF
+	msgbox, % checkstart
+}else {
+	Menu, sub, ToggleEnable, OFF
+	Menu, sub, Enable, ON
+	msgbox, % checkstart
 }
 
 ;---- check regedit

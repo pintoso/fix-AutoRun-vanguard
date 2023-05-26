@@ -3,7 +3,7 @@
 
 "fix" for Vanguard / Valorant start without conflict with pirated softwares.
 
-Just a simple script that will quickly and easily change the value of the DevOverrideEnable key in the windows registry depending on your needs.
+Just a simple script that will quickly and easily change the value of the `DevOverrideEnable` key in the windows registry depending on your needs.
 
 By default it will detect `Riot/Valorant launcher` or `Vegas 20` program when they are opened
 If it is detected that the program/game is not working, a confirmation window will appear.

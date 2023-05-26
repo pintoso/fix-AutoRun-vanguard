@@ -26,7 +26,7 @@ If it is detected that the program/game is not working, a confirmation window wi
 you can also [compile it yourself](#compiling)
 
 ## How to use
-1. Download & run executable as admin
+1. Download & run as admin
 2. Run VALORANT
 3. Accept and Restart
 

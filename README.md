@@ -17,7 +17,7 @@ If it is detected that the program/game is not working, a confirmation window wi
 
 - #### [❶.EXE](https://github.com/pintoso/fix-AutoRun-vanguard/releases/latest/download/AutoRun.exe)
 >✔️Make an exception for the`AutoRun.exe`if your antivirus does not like the file, this is a FALSE positive. 
-([VIRUSTOTAL](https://www.virustotal.com/gui/file/2da772b89974843c98256db0191e330b542573c5da1ff05f3379667744363d23/detection) scan)
+([VIRUSTOTAL](https://www.virustotal.com/gui/file/88a97edf170fb6a7af09bd1d2089d1092ec0c84c91bcb283c10d4e331b0e0d53/detection) scan)
 
 
 - #### [❷.AHK](https://github.com/pintoso/fix-AutoRun-vanguard/archive/refs/heads/master.zip)

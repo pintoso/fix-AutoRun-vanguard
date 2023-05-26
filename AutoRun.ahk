@@ -44,13 +44,10 @@ if (!checkstart) {
 ;---- check regedit
 ;
 RegRead, regeditinfo, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options, DevOverrideEnable
-if regeditinfo == 1
-{
+if (regeditinfo == 0x00000001) {
 	Menu, Tray, ToggleEnable, FIXvegas
 	Menu, Tray, Enable, FIXvalorant
-}
-else
-{
+}else if (regeditinfo == 0x00000000){
 	Menu, Tray, ToggleEnable, FIXvalorant
 	Menu, Tray, Enable, FIXvegas
 }

@@ -52,6 +52,6 @@ if you want to compile by yourself for security reasons(?), follow this step by 
 > 1. Run as admin
 > 2. Go to [tray menu](https://i.imgur.com/yqpx5nk.png)
 > 3. Right click on AutoRun
-> 4. ON
+> 4. STARTUP -> ON
 > 5. Restart your computer
 > 6. Try opening valorant / vegas

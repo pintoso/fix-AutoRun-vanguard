@@ -47,3 +47,11 @@ if you want to compile by yourself for security reasons(?), follow this step by 
 
 - How do I make another program be detected instead of Vegas 20?
 > On [line 100](https://github.com/pintoso/fix-AutoRun-vanguard/blob/main/AutoRun.ahk#L100) `Process, Exist, vegas200.exe` change `vegas200.exe` to the executable you want.
+
+- I followed the tutorial but I'm lost what is the easiest way to use this program?
+> 1. Run as admin
+> 2. Go to [tray menu](https://i.imgur.com/yqpx5nk.png)
+> 3. Right click on AutoRun
+> 4. ON
+> 5. Restart your computer
+> 6. Try opening valorant / vegas

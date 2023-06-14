@@ -21,7 +21,7 @@ If it is detected that the program/game is not working, a confirmation window wi
 
 
 - #### [❷.AHK](https://github.com/pintoso/fix-AutoRun-vanguard/archive/refs/heads/master.zip)
-**need to install [AutoHotkey](https://www.autohotkey.com/download/ahk-v2.exe), extract the Agent Picker files and run `AgentPicker.ahk` as admin**
+**need to install [AutoHotkey](https://www.autohotkey.com/download/ahk-v2.exe), extract the AutoRun files and run `AutoRun.ahk` as admin**
 
 you can also [compile it yourself](#compiling)
 
@@ -37,7 +37,7 @@ if you want to compile by yourself for security reasons(?), follow this step by 
 
 1. Install [AHK](https://www.autohotkey.com/download/)
 2. Download/clone the [github repository](https://github.com/pintoso/fix-AutoRun-vanguard)
-3. Compile `AgentPicker.ahk` using Ahk2Exe
+3. Compile `AutoRun.ahk` using Ahk2Exe
 
 
 ## FAQ

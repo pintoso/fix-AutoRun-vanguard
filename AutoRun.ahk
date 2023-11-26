@@ -1,4 +1,4 @@
-﻿#NoEnv
+#NoEnv
 #SingleInstance, Force
 #Persistent
 SetTitleMatchMode, 2
@@ -10,6 +10,9 @@ SetWorkingDir, %A_ScriptDir%
 
 SetTimer, CheckValorant, 5000
 SetTimer, CheckVegas, 5000
+
+if not A_IsAdmin
+	Run *RunAs "%A_ScriptFullPath%" ;
 
 ;---- tray
 ;
@@ -200,7 +203,7 @@ return
 
 ;---- startup on
 ON:
-Runwait,  "%A_WinDir%\System32\schtasks.exe" /create /TN AutoRun /TR "%A_ScriptDir%\AutoRun.exe" /RL HIGHEST /SC ONLOGON /F,,hide
+Runwait,  "%A_WinDir%\System32\schtasks.exe" /create /TN AutoRun /TR "'%A_ScriptFullPath%'" /RL HIGHEST /SC ONLOGON /F,,hide
 Menu, sub, ToggleEnable, ON
 Menu, sub, Enable, OFF
 return
